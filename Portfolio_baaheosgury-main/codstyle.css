@@ -1,0 +1,21 @@
+table{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 30%;
+}
+td{
+    background-color: rgb(68, 68, 68);
+    border: 2px solid black;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+th{
+    background-color: gray;
+    border: 2px solid black;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+}
