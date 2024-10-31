@@ -1,0 +1,66 @@
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+body {
+   margin: 0;
+   font-family: arial, sans-serif;
+   background-color: black;
+   color: white;
+}
+
+header {
+    background-color: #a70f0f;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    height: 95vh;
+    padding: 0px;
+    width: 1300px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    max-height: 180%;
+    max-width: 180%;
+}
+
+.activities {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+
+
+.activities button {
+    background-color: #a70f0f;
+    border: none;
+    padding: 18px 75px;
+    margin: 100px 0;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.activities button:hover {
+    background-color: rgb(201, 47, 47);
+}
+
+.copyright{
+    color: rgb(170, 170, 170);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
