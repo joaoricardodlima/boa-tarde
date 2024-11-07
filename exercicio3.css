@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background: url('fundo\ ex3.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: #8B0000;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 320px;
+    margin-top: -320px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #FFF5EE;
+    margin-bottom: 20px;
+  }
+  
+  .name {
+    font-size: 1.8em;
+    color: #FFF5EE;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .title {
+    font-size: 1.1em;
+    color: #FFDEAD;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .description {
+    font-size: 0.9em;
+    color: #FFF5EE;
+    margin-bottom: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-group button {
+    width: 90px;
+    padding: 10px;
+    background-color: #b22222;
+    color: #FFF5EE;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button-group button:hover {
+    background-color: #5c0000;
+    transform: scale(1.05);
+  }
